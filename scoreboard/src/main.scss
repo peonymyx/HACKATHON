@@ -1,12 +1,13 @@
-body{
-    background-image: linear-gradient(to top right, 
-    #CC64A2,
-    #5C3075
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
     
-);
-text-align: center;
-min-height: 100vh;
-line-height: 20px;
 }
 #title{
     text-align: center;
@@ -14,6 +15,7 @@ line-height: 20px;
     font-family: 'Lobster', cursive;    
 }
 #table{
+  
     min-height: 100px;
     button{
         border: none;
